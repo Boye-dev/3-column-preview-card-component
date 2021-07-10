@@ -1,0 +1,123 @@
+.container{
+  margin:10%;
+}
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.suvs{
+  background-color:hsl(184, 100%, 22%);
+}
+.luxry{
+    background-color:hsl(179, 100%, 13%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.col-lg-4{
+  padding-top:3%;
+  padding-left: 5%;
+  padding-right: 2%;
+}
+.heading-txt{
+font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size: 40px;
+  color:hsl(0, 0%, 95%);
+  padding-top: 3rem;
+}
+.para-txt{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 3rem;
+  padding-right: 30%;
+}
+.butt-sedans{
+
+  background-color: hsl(0, 0%, 95%);
+  color:hsl(31, 77%, 52%);
+  width:8rem;
+  height: 2.6rem;
+  border-radius: 20px;
+  border-color: Transparent;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.butt-sedans:hover{
+
+  background-color:Transparent;
+  color:white;
+
+  border: 2px solid white;
+
+}
+
+.butt-suvs{
+
+  background-color: hsl(0, 0%, 95%);
+  color:hsl(184, 100%, 22%);
+  width:8rem;
+  height: 2.6rem;
+  border-radius: 20px;
+  border-color: Transparent;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.butt-suvs:hover{
+
+  background-color:Transparent;
+  color:white;
+
+  border: 2px solid white;
+
+}
+.butt-luxury{
+
+  background-color: hsl(0, 0%, 95%);
+  color:hsl(179, 100%, 13%);
+  width:8rem;
+  height: 2.6rem;
+  border-radius: 20px;
+  border-color: Transparent;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.butt-luxury:hover{
+
+  background-color:Transparent;
+  color:white;
+
+  border: 2px solid white;
+
+}
+@media (max-width:375px) {
+  .cont{
+
+
+    margin-right: 17%;
+    margin-bottom: 5%;
+  }
+  .sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+  }
+  .suvs{
+    background-color:hsl(184, 100%, 22%);
+  }
+  .luxry{
+      background-color:hsl(179, 100%, 13%);
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 20px;
+          border-bottom-left-radius: 20px;
+  }
+  .img-t{
+    padding-top: 2.4rem;
+  }
+}
